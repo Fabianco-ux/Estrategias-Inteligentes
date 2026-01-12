@@ -36,22 +36,22 @@ Esto publicará `dist/` en la rama `gh-pages`. En GitHub, activa Pages para la r
 
 Usa el parámetro `?embed=1` para ocultar la barra lateral y compactar el diseño.
 
-Ejemplo de snippet (reemplaza `TU_URL` por la URL de GitHub Pages):
+Ejemplo de snippet (URL actual estimada: https://fabianco-ux.github.io/Estrategias-Inteligentes/):
 
 ```html
 <iframe
-  src="TU_URL?embed=1#/"
+  src="https://fabianco-ux.github.io/Estrategias-Inteligentes/?embed=1#/"
   style="width: 100%; height: 720px; border: 0; border-radius: 12px; overflow: hidden;"
   allowfullscreen
 ></iframe>
 ```
 
-- Para embeber una sección concreta, ajusta la ruta tras `#`, por ejemplo:
-  - LinkedIn: `TU_URL?embed=1#/linkedin`
-  - Google Analytics: `TU_URL?embed=1#/google-analytics`
-  - Instagram: `TU_URL?embed=1#/instagram`
-  - Facebook: `TU_URL?embed=1#/facebook`
-  - WhatsApp: `TU_URL?embed=1#/whatsapp`
+- Para embeber una sección concreta, usa:
+  - LinkedIn: `https://fabianco-ux.github.io/Estrategias-Inteligentes/?embed=1#/linkedin`
+  - Google Analytics: `https://fabianco-ux.github.io/Estrategias-Inteligentes/?embed=1#/google-analytics`
+  - Instagram: `https://fabianco-ux.github.io/Estrategias-Inteligentes/?embed=1#/instagram`
+  - Facebook: `https://fabianco-ux.github.io/Estrategias-Inteligentes/?embed=1#/facebook`
+  - WhatsApp: `https://fabianco-ux.github.io/Estrategias-Inteligentes/?embed=1#/whatsapp`
 
 > Nota: El hash routing es manejado por React Router; en Sites el `iframe` respetará la URL completa.
 
