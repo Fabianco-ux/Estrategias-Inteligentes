@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirigiendo…</title>
+    <meta http-equiv="refresh" content="0; url=./#/" />
+    <script>
+      // Fallback JS por si el meta refresh falla
+      (function(){
+        var target = './#/'
+        try {
+          var path = window.location.pathname || '';
+          // Si el sitio está bajo /Estrategias-Inteligentes/, mantenemos el subpath
+          if (path && !path.endsWith('/')) path = path.substring(0, path.lastIndexOf('/')+1);
+          target = path + '#/';
+        } catch (e) {}
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body>
+    Redirigiendo…
+  </body>
+</html>
